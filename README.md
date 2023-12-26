@@ -1,24 +1,6 @@
 
-# Cory Whitney's Academic CV
+#My Academic CV
 
-## Forked from JooYoung Seo's Academic CV:
+I built this following [Eduardo Fernandez](https://github.com/EduardoFernandezC) who followed [JooYoung Seo](https://github.com/jooyoungseo/jy_CV). The scripts follow a bookdown structure where each section of the CV is one separate `.Rmd` file. To render the complete document, you need to knit the `index.Rmd` file (using the latest [rmarkdown](devtools::install_github('rstudio/rmarkdown')), [pandoc](https://pandoc.org/installing.html) among other R libraries). The order of the sections is specified by `_bookdown.yml.` You can define several `.bib` entries according to the section you want the information printed out.
 
-https://github.com/jooyoungseo/jy_CV
-
-## Enhancements Compared to the default `vitae` package:
-
-* Styling your publications using given csl file in `YAML`.
-* Printing as many bibliographic sections and corresponding entries as you want in your CV (e.g., journal publication, conference proceedings, software developments, etc. etc.).
-* Highlighting your name in printed bib entries using bold format (see and change the content in `lua/strong.lua`).
-* Easily managing your CV following `bookdown` style (e.g., each separate Rmd file according to their own categories like chapters).
-
-
-## Descriptions
-
-This repo has been created to systematically manage my academic CV. This is reproducible for those who have basic knowledge of R and R Markdown.
-
-Based on [vitae package](https://github.com/mitchelloharawild/vitae/), I have extended its capabilities to include multiple bibliographic entries using [multiple-bibliographies lua filter](https://github.com/pandoc/lua-filters/blob/master/multiple-bibliographies/multiple-bibliographies.lua) so that I can print my scientific records in [APA_CV style](https://github.com/citation-style-language/styles/blob/master/apa-cv.csl).
-
-Following my template, you would be able to print as many bib-entries as you want using your desired csl file and your `*.bib` files.
-
-Anyone who would like to get a hint on how I have managed [this CV](https://jooyoungseo.github.io/jy_CV/JooYoung_Seo_CV.pdf) can fork this repo to make their own.
+The CV is based on a template from `vitae::awesome` with minor modifications to the `awesome-cv.cls` file for personal customizations in letter color and style.

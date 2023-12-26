@@ -1,0 +1,10 @@
+# Education
+
+```{r}
+
+readxl::read_excel("data/Cory_data.xlsx", sheet = "education")  %>%
+    
+    vitae::detailed_entries(with, when, what, where)
+```
+
+

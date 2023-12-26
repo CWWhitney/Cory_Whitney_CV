@@ -1,0 +1,99 @@
+# Service to profession
+
+\begingroup
+\fontfamily{ppl}\fontsize{12}{16}\selectfont\color{darktext}
+Editorial board member: 
+\fontfamily{ppl}\fontsize{9}{16}\selectfont
+  Ethnobiology Letters \bullet
+  Human Ecology Review \bullet 
+  Journal of Ethnobiology and Ethnomedicine 
+\endgroup
+
+\begingroup
+\fontfamily{ppl}\fontsize{12}{16}\selectfont\color{darktext}
+Reviewer: 
+\fontfamily{ppl}\fontsize{9}{16}\selectfont
+  Agriculture and Human Values \bullet 
+  Agroforestry Systems \bullet 
+  Agronomy \bullet 
+  Agronomy for Sustainable Development \bullet 
+  Applied Economics \bullet 
+  Biomedical and Pharmacology \bullet 
+  Earth’s Future \bullet 
+  Earth Science Informatics \bullet 
+  Economic Botany \bullet 
+  Ecosystem Services \bullet 
+  Environment, Development and Sustainability \bullet 
+  Ethnobiology Letters \bullet 
+  Ethnobotany Research and Applications \bullet 
+  Experimental Agriculture \bullet 
+  Food Security \bullet 
+  Foods \bullet 
+  Forests \bullet 
+  Frontiers in Sustainable Food Systems \bullet 
+  Health Promotion International \bullet 
+  Heliyon \bullet
+  Human Ecology \bullet 
+  Human Ecology Review \bullet 
+  International Journal of Social Economics \bullet 
+  Journal of Ethnobiology \bullet 
+  Journal of Ethnobiology and Ethnomedicine \bullet 
+  Land \bullet 
+  Land Use Policy \bullet 
+  Medicines \bullet 
+  Peer J \bullet 
+  Plant Diversity \bullet 
+  Plants \bullet 
+  Scientific Reports \bullet 
+  Sustainability 
+\endgroup
+
+\begingroup
+\fontfamily{ppl}\fontsize{12}{16}\selectfont\color{darktext}
+Committee member: 
+\fontfamily{ppl}\fontsize{9}{16}\selectfont
+  Research on the links between biodiversity and human health (BMBF call) \bullet
+  Richard Evans Schultes Student Research Award Committee \bullet 
+  The Prince Claus Fund for Culture and Development \bullet 
+\endgroup
+
+
+```{r}
+tribble(
+  ~ Service, ~ Year, ~Role, ~ Place,
+
+"Sustainable Use and Livelihoods Commission / Commission on Environmental, Economic and Social Policy", 
+"2014 to Present", 
+"IUCN (International Union for Conservation of Nature) commission member",
+"",
+
+"IUCN World Conservation Congress \u2022 Hawai’i, Marseille", 
+"2015-2019", 
+"Technical review group",
+"",
+
+"Special Workshop \u2022 Government Policies for the Promotion of Organic Agriculture with a Focus on the Asian Pacific Region, 17th IFOAM OWC, Republic of Korea
+", 
+"2011", 
+"Panel organizer",
+"",
+
+"Journal of Agriculture in the Rural Tropics and Subtropics/ German Institute for Tropical and Subtropical Agriculture", 
+"2010", 
+"Editorial staff",
+"",
+
+  "Society for Economic Botany (2015-2017) \u2022 
+  Trans Atlantic Partnership in Sustainable Food Systems Ambassador (2009-2010) \u2022 
+  Work Colleges Consortium (2000-2001) \u2022 
+  North American Alliance for Green Education (2000-2001) \u2022 
+  Americorps Vermont (2000-2001)", 
+"2000 to 2017",
+"Student Council member",
+"",
+
+) %>% 
+  #detailed_entries(data, what, when, with, where, why, .protect = TRUE
+  detailed_entries(Service, Place,  Role, Year)
+```
+

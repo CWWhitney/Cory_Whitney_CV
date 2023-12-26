@@ -1,0 +1,16 @@
+# Other skills
+
+\begin{cvskills}
+  \cvskill
+    {Data Science}
+    {User level in R \textbullet \ R package developer}
+    
+  \cvskill
+    {Reproducible reports}
+    {User level in Rmarkdown \textbullet \ markdown \textbullet \ \LaTeX \textbullet \ pandoc}
+    
+  \cvskill
+    {Languages}
+    {English (native speaker) \textbullet \ German (fluent) \textbullet \ French (intermediate)}
+    
+\end{cvskills}

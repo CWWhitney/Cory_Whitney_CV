@@ -1,23 +1,23 @@
 ---
-title: JooYoung Seo's Curriculum Vitae
 graphics: yes
-name: JooYoung
-surname: Seo
+name: Dr. Cory
+surname: Whitney
 headcolor: 414141
-#qualifications: 
-position: "Ph.D."
-pronouns: he/him/his
-address: "614 E. Daniel St. | Room 5158, Champaign, IL 61820"
-phone: "+1 217-333-2671"
-www: jooyoungseo.github.io
-email: "jseo1005@illinois.edu"
-twitter: seo_jooyoung
-github: jooyoungseo
-linkedin: jooyoungseo
+position: "Agricultural scientist"
+address: "Breite Str. 104, Bonn, Germany"
+phone: +49 162 852 0942
+www: cory-whitney.com
+email: "cory@cory-whitney.com"
+github: CWWhitney
+orcid: 0000-0003-4988-4583
+researchgate: Cory_Whitney
+# publons: 462597
+googlescholar: YPIcAA4AAAAJ
+linkedin: corywhitney
 aboutme: |
-  I am a learning scientist, data-science/software developer, and internationally certified accessibility professional.
-date: '`r format(Sys.Date(), "%B %d, %Y")`'
-csl: "csl/apa7-cv-jy-edition.csl"
+  Research interests: Decision analysis, participatory and transdisciplinary approaches, stochastic models, agroecology, agrobiodiversity, biodiversity, conservation
+date: "`r format(Sys.time(), '%B %Y')`"
+csl: "csl/apa-old-doi-prefix-2.csl"
 header-includes:
   # allow URLs to break at any character
   - \usepackage{xurl}
@@ -25,13 +25,30 @@ header-includes:
   # - \pagestyle{fancy}
   # - \fancyhf{}
   # - \fancyhead[R]{\thepage}
-knit: (function(input, ...) {lapply(bookdown::render_book(input, output_file = "docs/JooYoung_Seo_CV", output_format = "all", envir = globalenv(), ...), browseURL)})
+knit: (function(input, ...) {lapply(bookdown::render_book(input, output_file = "Cory_Whitney_CV", output_format = "all", envir = globalenv(), ...), browseURL)})
 ---
 
 ```{r setup, include=FALSE, cache = FALSE}
+library(bookdown)
 library(knitr)
 knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
-library(vitae)
+
+library(RefManageR)
+RefManageR::BibOptions(check.entries = FALSE,
+           bib.style = "authoryear",
+           sorting = "ynt",
+           cite.style = "alphabetic",
+           style = "markdown",
+#           hyperlink = FALSE,
+           dashed = FALSE)
+
+library(ezpickr)
+library(readxl)
 library(tidyverse)
-library(vroom)
+library(tinytex)
+library(vitae)
 ```
+
+
+
+

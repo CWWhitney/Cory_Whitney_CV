@@ -1,0 +1,26 @@
+# Collaboration partners
+
+
+\begingroup
+\fontfamily{ppl}\fontsize{12}{16}\selectfont\color{darktext}
+Academic Institutes: 
+\fontfamily{ppl}\fontsize{9}{16}\selectfont
+Kunming Institute of Botany, China \bullet 
+University of Kassel, Germany \bullet
+Rhine-Waal University, Germany \bullet
+Makerere University, Uganda \bullet
+Pontifical Catholic University of Valparaiso, Chile
+\endgroup
+
+\begingroup
+\fontfamily{ppl}\fontsize{12}{16}\selectfont\color{darktext}
+Government / civil society: 
+\fontfamily{ppl}\fontsize{9}{16}\selectfont
+World Agroforestry, Nairobi, Kenya \bullet
+Slow Food International, Bra, Italy \bullet
+Slow Food Uganda \bullet
+Social Policy Ecology Research Institute, Vietnam \bullet
+Human Ecology Practice Area, Vietnam \bullet
+Center for Human Ecology Studies in the Highlands of Lao PDR \bullet
+IUCN Freshwater Biodiversity Unit, Global Species Programme, UK
+\endgroup

@@ -1,0 +1,9 @@
+# Academic development
+
+```{r}
+
+readxl::read_excel("data/Cory_data.xlsx", sheet = "academic_development")  %>%
+    
+    vitae::detailed_entries(with, when, what, where)
+```
+

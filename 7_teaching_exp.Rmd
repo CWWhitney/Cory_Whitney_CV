@@ -1,0 +1,168 @@
+# Academic Supervision
+
+\begingroup
+\fontfamily{ppl}\fontsize{12}{16}\selectfont\color{darktext}
+MSc: 
+\fontfamily{ppl}\fontsize{9}{16}\selectfont
+S. Christianto \bullet 
+H. Do \bullet 
+B. Huerta \bullet
+J. Lutum \bullet
+A. Mondragon \bullet 
+A. Krause \bullet 
+L. Netter \bullet
+T. Sandmann 
+\endgroup
+
+
+# Academic Tutoring
+
+\begingroup
+\fontfamily{ppl}\fontsize{12}{16}\selectfont\color{darktext}
+PhD: 
+\fontfamily{ppl}\fontsize{9}{16}\selectfont
+O. Burbano-Figueroa \bullet
+E. Fernandez \bullet
+A. Krause \bullet 
+I. Liman \bullet 
+G. Luu \bullet 
+A. Mya Mon \bullet
+W. Oluoch \bullet
+M. Ruett \bullet
+N. Sulaiman \bullet
+N. Yigzaw 
+\endgroup
+    
+\begingroup
+\fontfamily{ppl}\fontsize{12}{16}\selectfont\color{darktext}
+MSc: 
+\fontfamily{ppl}\fontsize{9}{16}\selectfont
+D. Ahebwe (MSc) \bullet
+D. Bastakoti (MSc) \bullet
+H. Mufumbiro (MSc) \bullet
+P. Phyo Hein (MSc) \bullet
+G. Rojas (MSc)
+\endgroup
+    
+
+# Teaching
+
+```{r}
+tribble(
+  ~ Date, ~ Role, ~ CourseDepartmentUniversity, ~ Place,
+  
+  "2018 to Present", 
+  "Lecturer, Modelling \u2022 Crop Systems Analysis \u2022 Decision Analysis", 
+  "Department of Horticultural Sciences/ ARTS Masters programs, INRES, University of Bonn, Germany \u2022 4 semester week hours of lectures", 
+  "",
+
+"2018 to Present",
+"Lecturer, Academic Writing \u2022 Introduction to R \u2022 Interdisciplinary research \u2022 Complex Systems Modelling",
+  "The Bonn International Graduate School for Development Research, Center for Development Research, University of Bonn, Germany \u2022 15 lectures a year", 
+"",
+
+"2019",
+"Invited Lecturer, Introduction to R \u2022 Ethnobotany research and modelling",
+  "Kunming Institute of Botany, Yunnan, China", 
+"",
+
+  "2014 to 2015", 
+  "Invited Lecturer, Sustainable Agricultural Production Systems", 
+  "Faculty of Life Sciences, Rhine Waal University of Applied Sciences, Germany \u2022 3 lectures a year", 
+  "",
+
+  "2014", 
+  "Invited Field Course Instructor, Mabira Forest Biodiversity Assessment", 
+  "College of Agricultural and Environmental Sciences, Makerere University, Uganda", 
+"",
+
+"2002",
+ "Professor’s Assistant",
+ "Japanese Sustainable Systems, Sterling College, Vermont/ Hokkaido, Japan",
+"",) %>% 
+  #detailed_entries(data, what, when, with, where, why, .protect = TRUE)
+  detailed_entries(CourseDepartmentUniversity, Place, Role, Date)
+```
+
+\begingroup
+\fontfamily{ppl}\fontsize{14}{16}\selectfont\color{darktext}
+\textbullet Teaching outside academia
+\endgroup
+
+```{r}
+tribble(
+  ~ Date, ~ Role, ~ CourseDepartmentUniversity, ~ Place,
+  
+  "2006 to 2007", 
+  "Instructor/ Mate/ Captain, Maritime Outdoor Education Programs", 
+  "Call of the Sea, Sailing School Vessel (SSV) Schooner Seaward \u2022 Sausalito, California American Sail Training Association, Fleet of Tall Ships", 
+"",
+
+  "2004 to 2006", 
+  "Environmental Educator, Marine Biology and Outdoor Education", 
+ "Tall-ship program, SSV Schooner Tole Mour, California, Catalina Island Marine Institute (CIMI)", 
+"",
+
+  "2003 to 2004", 
+ "Educator, Maritime Based High School Programs", 
+ "SSV Schooner Lettie G. Howard \u2022 New York, New York City Maritime Museum/ New York Harbor School", 
+"",
+
+ "2002 to 2003", 
+ "Instructor, Outdoor Leadership", 
+"Hurricane Island Outward Bound School, Maine", 
+"",
+
+) %>% 
+  #detailed_entries(data, what, when, with, where, why, .protect = TRUE)
+  detailed_entries(CourseDepartmentUniversity, Place, Role, Date)
+```
+
+# Co-Supervised Theses
+
+```{r}
+tribble(
+  ~ Date, ~ Role, ~ CourseDepartmentUniversity, ~ Place,
+  
+  "2022", 
+  "B. Huerta. MSc Thesis, University of Bonn, Germany", 
+  "The effect of agricultural management practices on aflatixin reduction in maize in Mexico - a Decision Analysis approach (co-supervisor with Prof. Dr. Eike Luedeling)", 
+"",
+
+    "2022", 
+  "A. Krause. MSc Thesis, University of Bonn, Germany", 
+  "Factors influencing rural farm women’s empowerment in agricultural development (co-supervisor with Prof. Dr. Eike Luedeling)", 
+"",
+
+ "2020", 
+  "J. Lutum. MSc Thesis, University of Bonn, Germany", 
+  "A decision analysis approach to support cover crop selection in the Lower Rhine region (co-supervisor with Prof. Dr. Eike Luedeling)", 
+"",
+
+  "2020", 
+  "L. Netter. MSc Thesis, University of Bonn, Germany", 
+  "Agroforestry and restoration with the Gold Standard - Decision Analysis of a voluntary carbon offset label (co-supervisor with Prof. Dr. Eike Luedeling)", 
+"",
+
+  "2020", 
+  "T. Sandmann. MSc Thesis, University of Bonn, Germany", 
+  "Urban Agriculture in a Changing Climate -
+An Evidence Gap Map  (co-supervisor with Prof. Dr. Eike Luedeling)", 
+"",
+
+ "2020", 
+  "S. Christianto. MSc Thesis, University of Bonn, Germany", 
+  "Assessing Profitability in Intervention of Agroforestry in Indonesia (co-supervisor with Prof. Dr. Eike Luedeling)", 
+"",
+
+  "2019", 
+  "H. Do. MSc Thesis, University of Bonn, Germany", 
+  "Helping farmers choose — Probabilistic modelling of agroforestry options in Northern Vietnam (co-supervisor with Prof. Dr. Eike Luedeling)", 
+"",
+
+) %>% 
+  #detailed_entries(data, what, when, with, where, why, .protect = TRUE)
+  detailed_entries(CourseDepartmentUniversity, Place, Role, Date)
+```
+
+

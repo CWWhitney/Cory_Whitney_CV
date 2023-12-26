@@ -1,7 +1,0 @@
-# Education
-
-```{r education}
-vroom::vroom("data/education.csv") %>%
-  tidyr::fill(-why) %>%
-  vitae::detailed_entries(what, when, with, where, why)
-```

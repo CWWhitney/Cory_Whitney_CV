@@ -1,0 +1,22 @@
+# Employment
+
+<!-- Add month and year exactly of contract  in 11 2018 start at uni-bonn officially - look at contracts to check -->
+
+```{r}
+
+readxl::read_excel("data/Cory_data.xlsx", sheet = "employment")  %>%
+    
+    vitae::detailed_entries(with, when, what, where)
+```
+
+\begingroup
+\fontfamily{ppl}\fontsize{14}{16}\selectfont\color{darktext}
+\textbullet Professional experience outside academia
+\endgroup
+
+```{r}
+
+readxl::read_excel("data/Cory_data.xlsx", sheet = "proffes_experience")  %>%
+    
+    vitae::detailed_entries(with, when, what, where)
+```

@@ -1,0 +1,106 @@
+# Involvement in funded research projects
+
+```{r}
+tribble(
+  ~ Project, ~ Year, ~Role, ~Place,
+
+  "German Federal Office for Agriculture and Food (BLE) \u2022 Nutrition Intervention Forecasting and Monitoring (NIFAM)", 
+"2021 to 2025", 
+"Principal investigator (1,260,000 EUR)",
+"",
+
+  "Bundesministerium für Ernährung und Landwirtschaft (BOELN) \u2022 Etablierung von Priming an Tomaten- Jungpflanzen als Pflanzenschutzverfahren mi Gartenbau (HortiPrimed)", 
+"2022 to 2024", 
+"Principal investigator (31,610 EUR)",
+"",
+
+"CGIAR WLE \u2022 E-flows in support of the sustainable intensfication of agriculture in the Limpopo River Basin", 
+"2021 to 2022", 
+"Co-investigator* (20,000 USD)",
+"",
+
+ "CGIAR WLE \u2022 Quantifying Uncertainty in Monitoring Soil Organic Carbon Stock and Greenhouse Gas Emissions", 
+"2021 to 2022", 
+"Co-investigator* (25,800 USD)",
+"",
+
+ "CGIAR WLE \u2022 Generating calibration training software", 
+"2021 to 2022", 
+"Co-investigator* (20,000 USD)",
+"",
+
+"Deutsche Bundesstiftung Umwelt (DBU) \u2022 Wichern et al. Potenziale und Hindernisse einer regionalen Nährstoffkreislaufwirtschaft", 
+"2020 to 2022",
+"Co-investigator* (3,905 EUR, total budget: 83,275 EUR)",
+"",
+
+"Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH \u2022 The Action Alliance for Sustainable Bananas (ABNB) project, Germany \u2022 Modelling the climate change mitigation and adaptation effects of certification measures", 
+"2020", 
+"Co-investigator* (17,813 EUR)",
+"",
+
+  "BMBF-funded project \u2022 Phenological And Social Impacts of Temperature increase – climatic consequences for fruit production in Tunisia, Chile and Germany (2017-2020) \u2022 Probabilistic modelling and decision analysis in fruit production", 
+  "2018 to 2021", 
+  "Co-investigator* (536,000 EUR)", 
+  "",
+
+  "Zukunftsstiftung NRW-funded project \u2022 Innovationen für NRW zur Steigerung der Ressourceneffizienz und Umweltverträglichkeit im Gartenbau (2018-2021) \u2022 Application of decision analysis approaches for assisting Calluna growers in Germany", 
+  "2018 to 2021", 
+  "Co-investigator* (160,000 EUR)",
+  "",
+  
+"IMMANA-funded project \u2022 Probabilistic Causal Models for Nutrition Outcomes of Agricultural Actions \u2022 Development of a decision analysis approach based on Bayesian Networks for supporting development decisions in Uganda and Kenya",
+"2015 to 2018",	
+"Co-investigator* (250,000 GBP)",
+"",
+
+"Organic Participatory Guarantee System (PGS) \u2022 Agriculture Development Denmark Asia & Vietnam Farmers Union collaborative project, Vietnam \u2022 Survey and analysis of PGS farm performance", 
+"2013", 
+"Principal investigator (10,000 USD)",
+"",
+
+
+"                * contributed to proposal writing", 
+"", 
+"",
+"",
+
+) %>% 
+  #detailed_entries(data, what, when, with, where, why, .protect = TRUE
+  detailed_entries(Project, Place, Role, Year)
+```
+
+
+# Project collaboration
+
+```{r}
+tribble(
+  ~ Project, ~ Year, ~Role, ~Place,
+
+"Land Use Synergies and Conflicts within the framework of the 2030 Agenda \u2022 funded by the German Federal Ministry of Education and Research under the Social-ecological Research funding priority", 
+"2020 to present", 
+"Project Advisor",
+"",
+
+"CGIAR research program on Water Land and Ecosystems (WLE) \u2022 Flagship 5, Enhancing Sustainability across Agricultural Systems (ESA) \u2022 Providing tools to help improve decisions and investments for more sustainable agricultural landscapes", 
+"2018 to 2021", 
+"Co-investigator",
+"",
+
+"CGIAR WLE-funded project \u2022 Targeting Agricultural Innovation in the northern Volta basin \u2022 Probabilistic impact modelling for reservoir protection in Burkina Faso", 
+"2016 to 2017",
+"Co-investigator",
+"",
+
+"Human Ecology Practice Area \u2022 Center for Human Ecology Studies of Highlands \u2022 Ethnobotany studies with indigenous healers in Laos and Vietnam", 
+"2011 to 2013", 
+"Co-investigator",
+"",
+
+) %>% 
+  #detailed_entries(data, what, when, with, where, why, .protect = TRUE
+  detailed_entries(Project, Place, Role, Year)
+```
+
+
+

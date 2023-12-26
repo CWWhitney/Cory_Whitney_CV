@@ -1,0 +1,45 @@
+# Honors and Awards
+
+```{r}
+tribble(
+  ~ Date, ~ Reason, ~ InstitutionPlace, ~Place,
+
+  "2015", 
+  "Attendance \u2022  The First International Congress on Postharvest Loss Prevention (500 EUR)", 
+  "ADM Institute for the Prevention of Postharvest Loss, University of Illinois", 
+  "",
+  
+  "2016", 
+  "PhD of the Month", 
+  "Sustainable research in North Rhine-Westphalia", 
+  "",
+  
+  "2010", 
+  "Funding for ethnoecology fieldwork in Iceland and the Faroe Islands (2,000 USD)", 
+  "Partridge Foundation", 
+  "",
+  
+  "2009", 
+  "Trans Atlantic Partnership in Sustainable Food Systems Funding (5,000 USD)", 
+  "Partridge Foundation & College of the Atlantic", 
+  "",
+  
+  "2004", 
+  "ASTA Sail Training Program of the Year Award (crew of Lettie G. Howard)", 
+  "American Sail Training Association (ASTA), Seattle, Washington", 
+  "",
+  
+  "2003", 
+  "Best Exhibit Award", 
+  "Dorr Museum of Natural History, Bar Harbor, Maine", 
+  "",
+  
+  "2000", 
+  "AmeriCorps Education Award (5,000 USD)", 
+  "AmeriCorps Vermont, Burlington, Vermont",
+"",
+) %>% 
+  #detailed_entries(data, what, when, with, where, why, .protect = TRUE
+  detailed_entries(InstitutionPlace, Place,  Reason, Date)
+
+```

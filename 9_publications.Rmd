@@ -1,0 +1,48 @@
+
+# Peer-reviewed scientific articles 
+
+```{r}
+vitae::bibliography_entries("bib/papers.bib")
+# arrange(desc(row_number())) %>%
+# relocate(annote)
+```
+
+# Books and chapters
+
+```{r}
+vitae::bibliography_entries("bib/books.bib")
+# arrange(desc(row_number())) %>%
+# relocate(annote)
+```
+
+# Publications intended for professional communities
+
+```{r}
+vitae::bibliography_entries("bib/conferences.bib")
+# arrange(desc(row_number())) %>%
+# relocate(annote)
+```
+
+# Publications intended for the general public
+
+```{r}
+vitae::bibliography_entries("bib/magazines.bib")
+# arrange(desc(row_number())) %>%
+# relocate(annote)
+```
+
+# Data and software
+
+```{r}
+vitae::bibliography_entries("bib/data.bib")
+# arrange(desc(row_number())) %>%
+# relocate(annote)
+```
+
+# Monographs (theses)
+
+```{r}
+vitae::bibliography_entries("bib/theses.bib")
+# arrange(desc(row_number())) %>%
+# relocate(annote)
+```
