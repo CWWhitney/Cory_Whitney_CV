@@ -1,5 +1,9 @@
 
-# JooYoung Seo's Academic CV
+# Cory Whitney's Academic CV
+
+## Forked from JooYoung Seo's Academic CV:
+
+https://github.com/jooyoungseo/jy_CV
 
 ## Enhancements Compared to the default `vitae` package:
 
